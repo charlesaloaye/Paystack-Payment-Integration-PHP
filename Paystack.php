@@ -14,7 +14,7 @@ curl_setopt_array($curl, array(
         'callback_url' => ''
     ]),
     CURLOPT_HTTPHEADER => [
-        "authorization: Bearer " . PAYSTACK_API_KEY,
+        "authorization: Bearer ENTER PAYSTACK_API HERE",
         //api key
         "content-type: application/json",
         "cache-control: no-cache"
