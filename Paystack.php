@@ -1,5 +1,7 @@
 <?php
-// url to go to after payment
+
+$curl = curl_init();
+
 curl_setopt_array($curl, array(
     CURLOPT_URL => "https://api.paystack.co/transaction/initialize",
     CURLOPT_RETURNTRANSFER => true,
