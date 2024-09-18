@@ -1,7 +1,8 @@
 <?php
 $curl = curl_init();
 
-$reference = isset($_GET['reference']) ? $_GET['reference'] : '';
+$reference = isset($_GET['reference']) ?? '';
+
 if (!$reference) {
     die('No Payment Transaction Reference Received');
 }
