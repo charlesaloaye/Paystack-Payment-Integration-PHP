@@ -40,4 +40,4 @@ if (!$tranx['status']) {
 print_r($tranx);
 // redirect to page so User can pay
 // uncomment this line to allow the user redirect to the payment page
-header('Location: ' . $tranx['data']['authorization_url']);
+// header('Location: ' . $tranx['data']['authorization_url']);
